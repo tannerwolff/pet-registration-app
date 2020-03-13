@@ -33,6 +33,7 @@ export default class Home extends Component {
     if (this.state.status === true){
         return (
           <div className="container">
+            
             <div className='heading'>
               <h1>If you love your pets, please get them registered.</h1>
             </div>
@@ -56,6 +57,7 @@ export default class Home extends Component {
     } else {
       return (
         <div className="container">
+        
           <div className='heading'>
             <h1>If you love your pets, please get them registered.</h1>
           </div>
