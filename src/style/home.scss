@@ -1,0 +1,42 @@
+body{
+    margin: 10px;
+    background-color: rgb(215, 240, 200);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    img{
+        height: 300px;
+        width:100%;
+    }
+   
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    margin-top: 50px;
+    height: 600px;
+    width:100%;
+}
+
+.btn-wrapper{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+
+    button{
+        color: rgb(215, 240, 200);
+        background-color: darkgreen;
+        font-size: 25px;
+        height: 40px;
+        width: 33%;
+    }
+}
+
