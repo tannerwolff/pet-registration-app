@@ -5,7 +5,7 @@ import NavigationComponent from './navigation/navigation-container';
 import Home from './pages/home';
 import Info from './pages/info';
 
-import{ Link } from 'react-router';
+
 
 
 export default class App extends Component {

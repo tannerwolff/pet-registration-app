@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import{ Link } from 'react-router';
-
-// function Info() {
 
 export default class Info extends Component {
     render() {
@@ -77,5 +73,3 @@ export default class Info extends Component {
         );
     }
 }
-// }
-// export default Info;

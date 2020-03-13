@@ -1,0 +1,13 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+   
+}
+.nav-link-wrapper a{ 
+    color: black;
+    text-decoration: none;
+    &:hover {
+        color:rgb(14, 231, 14);
+    }
+}
